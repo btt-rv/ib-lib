@@ -1,25 +1,16 @@
 import React from 'react';
 import './App.css';
-import SubjectListItem from './components/subjectListItem';
-import { Paper } from '@mui/material';
-import SubjectList from './components/subjectList';
+import { Routes, Route } from 'react-router-dom';
+import HomePage from './components/homePage';
 
 function App() {
   const subjects:string[] = ["Maths AA", "Maths AI", "Chemistry", "Physics", "Biology"];
 
   return (
-    <div>
-      <Paper>
-        <SubjectList subjects={subjects}/>
-      </Paper>
-    </div>
+    <Routes>
+      <Route path="/" element={<HomePage subjects={subjects}/>} />
+    </Routes>
   ); 
 }
-
-// {
-//   subjects.map((subject, i) =>
-//     <ListItem subjectTitle={subject}/>
-//   )
-// }
 
 export default App;
