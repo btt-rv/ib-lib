@@ -12,7 +12,7 @@ type pastPapersDBRecord = {
 
 function SubjectList() {
 
-    const pastPapersDB:pastPapersDBRecord[] = JSON.parse(JSON.stringify(data))["default"];
+    const pastPapersDB:pastPapersDBRecord[] = JSON.parse(JSON.stringify(data)).default;
     
     return (
         <nav aria-label="">

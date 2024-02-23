@@ -12,13 +12,13 @@ function SubjectListItem(props:ListItemProps) {
     return (
             <ListItem className="subjectList">
                 <ListItemText primary={props.subjectTitle}  />
-                <Link to={"/past-papers/"+props.subjectID+"-"+"sl"}>
-                    <ListItemButton sx={{flexGrow: 0.08}}>
+                <Link to={"/past-papers/"+props.subjectID+"-"+"sl"} className="link">
+                    <ListItemButton>
                         <ListItemText primary="SL" sx={{textAlign: "center"}} /> 
                     </ListItemButton>
                 </Link>
-                <Link to={"/past-papers/"+props.subjectID+"-"+"hl"}>
-                    <ListItemButton sx={{flexGrow: 0.08}}>
+                <Link to={"/past-papers/"+props.subjectID+"-"+"hl"} className="link">
+                    <ListItemButton>
                         <ListItemText primary="HL" sx={{textAlign: "center"}} /> 
                     </ListItemButton>
                 </Link>
