@@ -1,15 +1,13 @@
 import React from "react";
 import SubjectList from "./subjectList";
 import { Paper } from '@mui/material';
+import AppNavBar from "./appNavBar";
 
-type HomePageProps = {
-    subjects:string[]
-}
-
-function HomePage(props:HomePageProps) {
+function HomePage() {
     return  (
         <Paper>
-            <SubjectList subjects={props.subjects}/>
+            <AppNavBar/>
+            <SubjectList/>
         </Paper>
     )
 }

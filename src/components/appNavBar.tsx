@@ -1,10 +1,19 @@
 import React from "react";
+import { AppBar, Toolbar, Typography } from "@mui/material";
 
 function AppNavBar() {
     return (
-        <div>
-
-        </div>
+        <AppBar position="static">
+            <Toolbar>
+                <Typography
+                    variant="h6"
+                    noWrap
+                    component="div"
+                >
+                    IB LIBRARY
+                </Typography>
+            </Toolbar>
+        </AppBar>
     )
 }
 

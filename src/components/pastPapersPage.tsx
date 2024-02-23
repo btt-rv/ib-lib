@@ -1,26 +1,17 @@
 import React from "react";
 import { Paper, List } from "@mui/material";
-import PastPapersListItem from "./pastPapersListItem";
+import * as data from "../data.json"
+import { useParams } from "react-router";
 
-type pastPapersPageProps = {
-    subject:string
-}
-
-type pastPapersContainer = {
-    questionPaperLink:string
-    markScheme:string
-}
-
-function PastPapersPage(props:pastPapersPageProps) {
-    let pastPapers:pastPapersContainer[] = []
+function PastPapersPage() {
+    const id = useParams().toString();
+    const pastPapersDB = JSON.parse(JSON.stringify(data));
 
     return (
         <Paper>
             <nav aria-label="">
                 <List>
-                    {pastPapers.map((subject, i) =>
-                        <PastPapersListItem/>
-                    )}
+
                 </List>
             </nav> 
         </Paper>

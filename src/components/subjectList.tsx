@@ -1,17 +1,23 @@
 import React from "react";
 import { List } from "@mui/material";
 import SubjectListItem from "./subjectListItem";
+import * as data from "../data.json"
 
-type SubjectListProps = {
-    subjects:string[]
+type pastPapersDBRecord = {
+    subjectID:string,
+    subjectTitle:string,
+    sl:object
+    hl:object,
 }
-function SubjectList(props:SubjectListProps) {
+
+function SubjectList() {
+
+    const pastPapersDB:pastPapersDBRecord[] = JSON.parse(JSON.stringify(data))["default"];
+    
     return (
         <nav aria-label="">
             <List>
-                {props.subjects.map((subject, i) =>
-                    <SubjectListItem subjectTitle={subject}/>
-                )}
+                {pastPapersDB.map((subject, i) => (<SubjectListItem subjectID={subject.subjectID} subjectTitle={subject.subjectTitle}/>))}
             </List>
         </nav> 
     )
