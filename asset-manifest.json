@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ib-lib/static/css/main.ac450ecf.css",
-    "main.js": "/ib-lib/static/js/main.ce165e3f.js",
+    "main.js": "/ib-lib/static/js/main.31a75380.js",
     "index.html": "/ib-lib/index.html",
     "main.ac450ecf.css.map": "/ib-lib/static/css/main.ac450ecf.css.map",
-    "main.ce165e3f.js.map": "/ib-lib/static/js/main.ce165e3f.js.map"
+    "main.31a75380.js.map": "/ib-lib/static/js/main.31a75380.js.map"
   },
   "entrypoints": [
     "static/css/main.ac450ecf.css",
-    "static/js/main.ce165e3f.js"
+    "static/js/main.31a75380.js"
   ]
 }
