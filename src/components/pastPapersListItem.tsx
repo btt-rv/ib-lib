@@ -3,7 +3,7 @@ import { ListItem, ListItemButton, ListItemText } from "@mui/material";
 import { Link } from "@mui/material";
 
 type pastPapersListItemType = {
-    seriesTitle:string
+    paperSetTitle:string
     questionPaper:string
     markscheme:string
 }
@@ -11,8 +11,8 @@ type pastPapersListItemType = {
 function PastPapersListItem(props:pastPapersListItemType) {
     return (
         <nav aria-label="">
-            <ListItem className="subjectList">
-                <ListItemText primary={props.seriesTitle}  />
+            <ListItem className="subjectList" sx={{backgroundColor:"#F2F2F2", borderBottom:1, borderColor:"#E0E0E0"}}>
+                <ListItemText primary={props.paperSetTitle}  />
                 <a href={props.questionPaper} target="external" className="link">
                     <ListItemButton>
                         <ListItemText primary="QP" sx={{textAlign: "center"}} />

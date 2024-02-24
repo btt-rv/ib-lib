@@ -7,19 +7,49 @@
         ],
         "hl": [
             {
-                "series": "May 2021 - Paper 1",
+                "paperTitle": "November 2021 - Paper 1",
                 "questionPaper": "https://drive.google.com/file/d/1TDSOGwzY14Q9nucubBKXlGPOoZQxVKmH/view?usp=sharing",
                 "markscheme": "https://drive.google.com/file/d/1_OQV9dNPt-YDCx1XLdHem-0Bh0_zpm9h/view?usp=sharing"
             },
             {
-                "series": "May 2021 - Paper 2",
+                "paperTitle": "November 2021 - Paper 2",
                 "questionPaper": "https://drive.google.com/file/d/1L2Pl0GxNKd9ov_aL3bAh_Ykw_WwuvKt0/view?usp=sharing",
                 "markscheme": "https://drive.google.com/file/d/11u3bv2T4NqIe7Gwi_wGqXFi5BeOXs5qG/view?usp=sharin"
             },
             {
-                "series": "May 2021 - Paper 3",
+                "paperTitle": "November 2021 - Paper 3",
                 "questionPaper": "https://drive.google.com/file/d/16-2j8gCfnpV_eRxjqipK36c2CIZAayuv/view?usp=sharing",
                 "markscheme": "https://drive.google.com/file/d/1NbXVkpXaR8Jo8vZNpHz5-Sn_0cGiWIEv/view?usp=sharing"
+            },
+            {
+                "paperTitle": "May 2021 - Paper 1_TZ1",
+                "questionPaper": "https://drive.google.com/file/d/1eI0eghLmbuC9ZD4Zqxd3DFRiF_RwvFua/view?usp=sharing",
+                "markscheme": "https://drive.google.com/file/d/1M614DwSp3zrv3QS3B-oO9TYEwLGQrQHo/view?usp=sharing"
+            },
+            {
+                "paperTitle": "May 2021 - Paper 1_TZ2",
+                "questionPaper": "https://drive.google.com/file/d/14HGAMbuxZN-7uNbBEJI3ZwCgCeUJNX7Q/view?usp=sharing",
+                "markscheme": "https://drive.google.com/file/d/1v7i_uQzfrcIdfovH3Ujz9IPTv1e55NZc/view?usp=sharing"
+            },
+            {
+                "paperTitle": "May 2021 - Paper 2_TZ1",
+                "questionPaper": "https://drive.google.com/file/d/1sWhnbkSr1r38jwKYNFGthYTG9clTm6Lh/view?usp=sharing",
+                "markscheme": "https://drive.google.com/file/d/16OKwE3XvUSsuCBS24GAwqHJBK1p7j0lY/view?usp=sharing"
+            },
+            {
+                "paperTitle": "May 2021 - Paper 2_TZ2",
+                "questionPaper": "https://drive.google.com/file/d/1Hdyv8vhL7qS-9SLaqq5gLdLw0jihuovW/view?usp=sharing",
+                "markscheme": "https://drive.google.com/file/d/15nLaWjg_Weh2ysyLevByeB9LgHl7u4IW/view?usp=sharing"
+            },
+            {
+                "paperTitle": "May 2021 - Paper 3_TZ1",
+                "questionPaper": "https://drive.google.com/file/d/1VKLCtD5__UKQeEtR2sp_hG09stwI5LpC/view?usp=sharing",
+                "markscheme": "https://drive.google.com/file/d/17-zOvJRhNacOU8P98wE2f4qrQIyRxUN2/view?usp=sharing"
+            },
+            {
+                "paperTitle": "May 2021 - Paper 3_TZ2",
+                "questionPaper": "https://drive.google.com/file/d/1YfUbMtonso3vmjU5gNeMrswp4GGO4Kbq/view?usp=sharing",
+                "markscheme": "https://drive.google.com/file/d/1NggfcPWR9yLmykUeD2Q-TY1Sk-JbzZ-m/view?usp=sharing"
             }
         ]
     },
