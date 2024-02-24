@@ -10,7 +10,7 @@ type ListItemProps = {
 function SubjectListItem(props:ListItemProps) {
 
     return (
-            <ListItem className="subjectList">
+            <ListItem className="subjectList" sx={{backgroundColor:"#F2F2F2", borderBottom:1, borderColor:"#E0E0E0"}}>
                 <ListItemText primary={props.subjectTitle}  />
                 <Link to={"/past-papers/"+props.subjectID+"-"+"sl"} className="link">
                     <ListItemButton>

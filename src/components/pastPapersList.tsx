@@ -1,6 +1,6 @@
 import React from "react";
 import { List } from "@mui/material";
-import * as data from "../data.json"
+import * as data from "../papers.json"
 import PastPapersListItem from "./pastPapersListItem";
 import PastPapersListDropDownMenu from "./pastPapersListDropDownMenu";
 
@@ -89,7 +89,7 @@ function separateBySeries(currentPastPapersList:paperSet[]) {
 
 function PastPapersList(props:pastPapersListPropsType) {
 
-    const pastPapersDB:pastPapersDBRecord[] = JSON.parse(JSON.stringify(data)).default;
+    const pastPapersDB:pastPapersDBRecord[] = JSON.parse(JSON.stringify(data)).default[parseInt(props.id.charAt(0))-1]
     const currentPastPapersList:paperSet[] = findPastPapersList(props.id, pastPapersDB)
     const currentPastPapersSeparatedBySeries = separateBySeries(currentPastPapersList)
 
