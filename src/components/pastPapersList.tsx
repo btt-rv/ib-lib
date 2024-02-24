@@ -36,7 +36,7 @@ function findPastPapersList(id:string, pastPapersDB:pastPapersDBRecord[]) {
         }
     });
  
-    if(id.slice(0, id.length-4) === "sl") {
+    if(id.slice(id.length-2, id.length) === "sl") {
         return pageRecord.sl
     } else {
         return pageRecord.hl
@@ -92,7 +92,7 @@ function PastPapersList(props:pastPapersListPropsType) {
     const pastPapersDB:pastPapersDBRecord[] = JSON.parse(JSON.stringify(data)).default[parseInt(props.id.charAt(0))-1]
     const currentPastPapersList:paperSet[] = findPastPapersList(props.id, pastPapersDB)
     const currentPastPapersSeparatedBySeries = separateBySeries(currentPastPapersList)
-
+ 
     return (
         <nav aria-label="">
             <List disablePadding >
